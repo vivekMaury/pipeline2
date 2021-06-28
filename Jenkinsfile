@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Building'
                 bat '''@ECHO OFF
-                //g++ Even_Odd.cpp -o SomeName.exe'''
+                g++ Even_Odd.cpp -o SomeName.exe'''
                 
             }
         }
