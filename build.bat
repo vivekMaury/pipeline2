@@ -1,1 +1,1 @@
- javac Hello.java java Hello -o SomeName.exe
+ javac Main.java java Main -o SomeName.exe
