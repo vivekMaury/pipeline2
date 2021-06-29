@@ -1,1 +1,1 @@
-python main.py -o SomeName.exe
+ javac Hello.java java Hello -o SomeName.exe
