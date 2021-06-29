@@ -1,1 +1,1 @@
-g++ Even_Odd.cpp -o SomeName.exe
+python main.py -o SomeName.exe
