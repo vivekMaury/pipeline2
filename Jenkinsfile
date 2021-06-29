@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Deploying'
                 bat '''@echo off'
-                md Realease_Timestamp'''
+               // md Realease_Timestamp'''
                 bat '''@echo off
                 move SomeName.exe Realease_Timestamp'''
  
