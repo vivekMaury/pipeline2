@@ -17,10 +17,10 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
-                bat '''@echo off'
+               // bat '''@echo off'
                // md Realease_Timestamp'''
-                bat '''@echo off
-                move SomeName.exe Realease_Timestamp'''
+                //bat '''@echo off
+              //  move SomeName.exe Realease_Timestamp'''
  
             }
         }
